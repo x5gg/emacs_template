@@ -1,0 +1,5 @@
+(add-to-list 'load-path "~/.emacs.d/ecb")
+(require 'ecb)
+(load-file "~/.emacs.d/init.el")
+(load-file "~/.emacs.d/xcscope.el")
+(require 'xcscope)
